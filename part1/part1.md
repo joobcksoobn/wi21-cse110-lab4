@@ -16,4 +16,39 @@
     C. student.greeting();
     D. alert( student['Favorite Teacher'].name );
     E. alert( student.courseLoad[0] );
-
+14. 
+    A. '3' + 2
+        '32' because the 3 is a string so the 2 is simply appended on
+    B. '3' - 2
+        1 because javascript treats - different than + and will convert '3' into a number and subtracts 2
+    C. 3 + null
+        3 because no value is being added to the 3
+    D. '3' + null
+        '3null' because the 3 is a string first, null will be treated as a string and appended onto '3'
+    E. true + 3
+        4 because true and false are equivalent to 1 and 0 respectively, adding 3 to true equals 4
+    F. false + null
+        0 because both false and null are equivalent to value 0
+    G. "3" + undefined
+        '3undefined' because the "3" is a string first, undefined will be treated as a string and appended onto "3"
+    H. "3" - undefined
+        NaN because "3" is interpreted as a string which cannot be subtracted from so the program throws Not a Number
+15. 
+    A. '2' > 1
+        true 
+    B. '2' < '12'
+        false
+    C. 2 == '2'
+        true
+    D. 2 === '2'
+        false
+    E. true == 2
+        false
+    F. true === Boolean(2)
+        true
+16. == compares the value of two variables and returns true if they are equal, whereas === also checks if the variable types match and only returns true if type and value are equal
+17. The code snippet will print 'How are you?' because the only if statement that evaluates to true because writing if(2) javascript will automatically change the type of 2 to bool, and since javascript considers true equivalent to 2 it will evauate to true. The first if statement evaluates to false because even though changing 2 to bool makes it equal to true, comparing true to an int will only evaluate to true when the int is 1.
+18. part1-question18.js
+19. The output will be [6,8,10] because for each element in the array it calls doSomething which adds 2 to the number, then the function inside modifyArray multiplies the result by 2.
+20. part1-question20.js
+21. The code will output 1 4 3 2 because the first line simply outputs 1, then the next two lines will output 2 and 3 but they both have delays so the next output is 4 on the following line. Then 3 is output before 2 because it has less delay.
