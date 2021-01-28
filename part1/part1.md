@@ -35,17 +35,17 @@
         NaN because "3" is interpreted as a string which cannot be subtracted from so the program throws Not a Number
 15. 
     A. '2' > 1
-        true 
+        true because '2' is converted to a number and compared based on the value
     B. '2' < '12'
-        false
+        false becasue the numbers are compared as strings and 2 is greater alphabetically than 12
     C. 2 == '2'
-        true
+        true because the '2' is converted to a number so they have equal value
     D. 2 === '2'
-        false
+        false because tripple equals signs compare both value and type
     E. true == 2
-        false
+        false because converting true to a number is equal to 1
     F. true === Boolean(2)
-        true
+        true Because the bool equivalent of 2 is true so they are equal
 16. == compares the value of two variables and returns true if they are equal, whereas === also checks if the variable types match and only returns true if type and value are equal
 17. The code snippet will print 'How are you?' because the only if statement that evaluates to true because writing if(2) javascript will automatically change the type of 2 to bool, and since javascript considers true equivalent to 2 it will evauate to true. The first if statement evaluates to false because even though changing 2 to bool makes it equal to true, comparing true to an int will only evaluate to true when the int is 1.
 18. part1-question18.js
